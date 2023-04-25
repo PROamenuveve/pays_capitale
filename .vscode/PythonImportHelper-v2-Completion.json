@@ -1,0 +1,264 @@
+[
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "Builder",
+        "importPath": "kivy.lang",
+        "description": "kivy.lang",
+        "isExtraImport": true,
+        "detail": "kivy.lang",
+        "documentation": {}
+    },
+    {
+        "label": "Builder",
+        "importPath": "kivy.lang",
+        "description": "kivy.lang",
+        "isExtraImport": true,
+        "detail": "kivy.lang",
+        "documentation": {}
+    },
+    {
+        "label": "MDApp",
+        "importPath": "kivymd.app",
+        "description": "kivymd.app",
+        "isExtraImport": true,
+        "detail": "kivymd.app",
+        "documentation": {}
+    },
+    {
+        "label": "MDApp",
+        "importPath": "kivymd.app",
+        "description": "kivymd.app",
+        "isExtraImport": true,
+        "detail": "kivymd.app",
+        "documentation": {}
+    },
+    {
+        "label": "MDApp",
+        "importPath": "kivymd.app",
+        "description": "kivymd.app",
+        "isExtraImport": true,
+        "detail": "kivymd.app",
+        "documentation": {}
+    },
+    {
+        "label": "StencilBehavior",
+        "importPath": "kivymd.uix.behaviors",
+        "description": "kivymd.uix.behaviors",
+        "isExtraImport": true,
+        "detail": "kivymd.uix.behaviors",
+        "documentation": {}
+    },
+    {
+        "label": "FitImage",
+        "importPath": "kivymd.uix.fitimage",
+        "description": "kivymd.uix.fitimage",
+        "isExtraImport": true,
+        "detail": "kivymd.uix.fitimage",
+        "documentation": {}
+    },
+    {
+        "label": "CountryInfo",
+        "importPath": "countryinfo",
+        "description": "countryinfo",
+        "isExtraImport": true,
+        "detail": "countryinfo",
+        "documentation": {}
+    },
+    {
+        "label": "Config",
+        "importPath": "kivy",
+        "description": "kivy",
+        "isExtraImport": true,
+        "detail": "kivy",
+        "documentation": {}
+    },
+    {
+        "label": "plyer",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "plyer",
+        "description": "plyer",
+        "detail": "plyer",
+        "documentation": {}
+    },
+    {
+        "label": "MDBoxLayout",
+        "importPath": "kivymd.uix.boxlayout",
+        "description": "kivymd.uix.boxlayout",
+        "isExtraImport": true,
+        "detail": "kivymd.uix.boxlayout",
+        "documentation": {}
+    },
+    {
+        "label": "MDFloatLayout",
+        "importPath": "kivymd.uix.floatlayout",
+        "description": "kivymd.uix.floatlayout",
+        "isExtraImport": true,
+        "detail": "kivymd.uix.floatlayout",
+        "documentation": {}
+    },
+    {
+        "label": "StringProperty",
+        "importPath": "kivy.properties",
+        "description": "kivy.properties",
+        "isExtraImport": true,
+        "detail": "kivy.properties",
+        "documentation": {}
+    },
+    {
+        "label": "Clock",
+        "importPath": "kivy.properties",
+        "description": "kivy.properties",
+        "isExtraImport": true,
+        "detail": "kivy.properties",
+        "documentation": {}
+    },
+    {
+        "label": "NumericProperty",
+        "importPath": "kivy.properties",
+        "description": "kivy.properties",
+        "isExtraImport": true,
+        "detail": "kivy.properties",
+        "documentation": {}
+    },
+    {
+        "label": "BooleanProperty",
+        "importPath": "kivy.properties",
+        "description": "kivy.properties",
+        "isExtraImport": true,
+        "detail": "kivy.properties",
+        "documentation": {}
+    },
+    {
+        "label": "ObjectProperty",
+        "importPath": "kivy.properties",
+        "description": "kivy.properties",
+        "isExtraImport": true,
+        "detail": "kivy.properties",
+        "documentation": {}
+    },
+    {
+        "label": "Question",
+        "importPath": "question",
+        "description": "question",
+        "isExtraImport": true,
+        "detail": "question",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "Q",
+        "kind": 5,
+        "importPath": "lejs",
+        "description": "lejs",
+        "peekOfCode": "Q = \"\"\"{\n    \"question\":[\n        {\"pays\":\"Togo\",\"capitale\":\"Lome\"},\n        {\"pays\":\"Afghanistan\",\"capitale\":\"Kaboul\"},\n        {\"pays\":\"Afrique du Sud\",\"capitale\":\"Pretoria\"},\n        {\"pays\":\"Albanie\",\"capitale\":\"Tirana\"},\n        {\"pays\":\"Algérie\",\"capitale\":\"Alger\"},\n        {\"pays\":\"Allemagne\",\"capitale\":\"Berlin\"},\n        {\"pays\":\"Andorre\",\"capitale\":\"Andorre-la-Vieille\"},\n        {\"pays\":\"Angola\",\"capitale\":\"Luanda\"},",
+        "detail": "lejs",
+        "documentation": {}
+    },
+    {
+        "label": "Qs",
+        "kind": 5,
+        "importPath": "lejs",
+        "description": "lejs",
+        "peekOfCode": "Qs = json.loads(Q)\nprint(Qs)\nwith open(\"les_questions.json\",\"w\") as g:\n    json.dump(Qs,g,indent=2)",
+        "detail": "lejs",
+        "documentation": {}
+    },
+    {
+        "label": "Example",
+        "kind": 6,
+        "importPath": "magie",
+        "description": "magie",
+        "peekOfCode": "class Example(MDApp):\n    def build(self):\n        return Builder.load_string(KV)\nExample().run()",
+        "detail": "magie",
+        "documentation": {}
+    },
+    {
+        "label": "KV",
+        "kind": 5,
+        "importPath": "magie",
+        "description": "magie",
+        "peekOfCode": "KV = '''\n<MagicButton@MagicBehavior+MDRectangleFlatButton>\nMDFloatLayout:\n    MagicButton:\n        text: \"WOBBLE EFFECT\"\n        on_release: self.wobble()\n        pos_hint: {\"center_x\": .5, \"center_y\": .3}\n    MagicButton:\n        text: \"GROW EFFECT\"\n        on_release: self.grow()",
+        "detail": "magie",
+        "documentation": {}
+    },
+    {
+        "label": "StencilImage",
+        "kind": 6,
+        "importPath": "ondulation",
+        "description": "ondulation",
+        "peekOfCode": "class StencilImage(FitImage, StencilBehavior):\n    pass\nclass Test(MDApp):\n    def build(self):\n        return Builder.load_string(KV)\nTest().run()",
+        "detail": "ondulation",
+        "documentation": {}
+    },
+    {
+        "label": "Test",
+        "kind": 6,
+        "importPath": "ondulation",
+        "description": "ondulation",
+        "peekOfCode": "class Test(MDApp):\n    def build(self):\n        return Builder.load_string(KV)\nTest().run()",
+        "detail": "ondulation",
+        "documentation": {}
+    },
+    {
+        "label": "KV",
+        "kind": 5,
+        "importPath": "ondulation",
+        "description": "ondulation",
+        "peekOfCode": "KV = '''\n#:import os os\n#:import images_path kivymd.images_path\nMDCarousel:\n    StencilImage:\n        size_hint: .9, .8\n        pos_hint: {\"center_x\": .5, \"center_y\": .5}\n        source: os.path.join(images_path, \"logo\", \"kivymd-icon-512.png\")\n'''\nclass StencilImage(FitImage, StencilBehavior):",
+        "detail": "ondulation",
+        "documentation": {}
+    },
+    {
+        "label": "t",
+        "kind": 5,
+        "importPath": "pays",
+        "description": "pays",
+        "peekOfCode": "t = CountryInfo(\"Sao Tome and Principe \")\nprint(t.capital())",
+        "detail": "pays",
+        "documentation": {}
+    },
+    {
+        "label": "MenuPrincipale",
+        "kind": 6,
+        "importPath": "pays_capitales",
+        "description": "pays_capitales",
+        "peekOfCode": "class MenuPrincipale(MDFloatLayout):\n    A = ObjectProperty()\n    B = ObjectProperty()\n    C = ObjectProperty()\n    D = ObjectProperty()\n    E = ObjectProperty()\n    repons = ObjectProperty()\n    teste = StringProperty()\n    resue =  ObjectProperty() \n    score = NumericProperty()",
+        "detail": "pays_capitales",
+        "documentation": {}
+    },
+    {
+        "label": "Pays_capitalesApp",
+        "kind": 6,
+        "importPath": "pays_capitales",
+        "description": "pays_capitales",
+        "peekOfCode": "class Pays_capitalesApp(MDApp):\n    def __init__(self, **kwargs):\n        super().__init__(**kwargs)\n        self.theme_cls.theme_style = 'Light'\n        self.theme_cls.primary_palette = 'Blue' \n        self.theme_cls.accent_palette = \"Yellow\"\n        self.theme_cls.accent_hue = '400' \n        self.theme_cls.primary_hue = 'A700' \nPays_capitalesApp().run()",
+        "detail": "pays_capitales",
+        "documentation": {}
+    },
+    {
+        "label": "Question",
+        "kind": 6,
+        "importPath": "question",
+        "description": "question",
+        "peekOfCode": "class Question():\n    def __init__(self) :\n        with open (\"les_questions.json\") as g:\n            self.donner = json.load(g)\n    def retour(self):\n        return self.donner\nQuestion()",
+        "detail": "question",
+        "documentation": {}
+    }
+]

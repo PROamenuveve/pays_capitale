@@ -1,0 +1,248 @@
+{
+  "question": [
+    {
+      "pays": "Togo",
+      "capitale": "Lome"
+    },
+    {
+      "pays": "Afghanistan",
+      "capitale": "Kaboul"
+    },
+    {
+      "pays": "Afrique du Sud",
+      "capitale": "Pretoria"
+    },
+    {
+      "pays": "Albanie",
+      "capitale": "Tirana"
+    },
+    {
+      "pays": "Alg\u00e9rie",
+      "capitale": "Alger"
+    },
+    {
+      "pays": "Allemagne",
+      "capitale": "Berlin"
+    },
+    {
+      "pays": "Andorre",
+      "capitale": "Andorre-la-Vieille"
+    },
+    {
+      "pays": "Angola",
+      "capitale": "Luanda"
+    },
+    {
+      "pays": "Antigua-et-Barbuda",
+      "capitale": "Saint John's"
+    },
+    {
+      "pays": "Arabie Saoudite",
+      "capitale": "Riyad"
+    },
+    {
+      "pays": "Argentine",
+      "capitale": "Erevan"
+    },
+    {
+      "pays": "Australie",
+      "capitale": "Canberra"
+    },
+    {
+      "pays": "Autriche",
+      "capitale": "Vienne"
+    },
+    {
+      "pays": "Azerba\u00efdjan",
+      "capitale": "Bakou"
+    },
+    {
+      "pays": "Bahamas",
+      "capitale": "Nassau"
+    },
+    {
+      "pays": "Bangladesh",
+      "capitale": "Dacca"
+    },
+    {
+      "pays": "Bahre\u00efn",
+      "capitale": "Manama"
+    },
+    {
+      "pays": "Barbade",
+      "capitale": "Bridgetown"
+    },
+    {
+      "pays": "Belgique",
+      "capitale": "Bruxelles"
+    },
+    {
+      "pays": "Belize",
+      "capitale": "Belmopan"
+    },
+    {
+      "pays": "B\u00e9nin",
+      "capitale": "Porto-Novo"
+    },
+    {
+      "pays": "Bhoutan",
+      "capitale": "Thimbu"
+    },
+    {
+      "pays": "Bi\u00e9lorussie",
+      "capitale": "Minsk"
+    },
+    {
+      "pays": "Birmanie",
+      "capitale": "Naypyidaw"
+    },
+    {
+      "pays": "Bolivie",
+      "capitale": "Sucre"
+    },
+    {
+      "pays": "Bosnie-Herz\u00e9govine",
+      "capitale": "Sarajevo"
+    },
+    {
+      "pays": "Botswana",
+      "capitale": "Gaborone"
+    },
+    {
+      "pays": "Br\u00e9sil",
+      "capitale": "Brasilia"
+    },
+    {
+      "pays": "Brunei",
+      "capitale": "Bandar Seri Begawan"
+    },
+    {
+      "pays": "Bulgarie",
+      "capitale": "Sofia"
+    },
+    {
+      "pays": "Burkina Faso",
+      "capitale": "Ouagadougou"
+    },
+    {
+      "pays": "Burundi",
+      "capitale": "Bujumbura"
+    },
+    {
+      "pays": "Cap-Vert",
+      "capitale": "Praia"
+    },
+    {
+      "pays": "Chili",
+      "capitale": "Santiago"
+    },
+    {
+      "pays": "Chine",
+      "capitale": "P\u00e9kin"
+    },
+    {
+      "pays": "Chypre",
+      "capitale": "Nicosie"
+    },
+    {
+      "pays": "Colombie",
+      "capitale": "Bogota"
+    },
+    {
+      "pays": "Comores",
+      "capitale": "Moroni"
+    },
+    {
+      "pays": "Congo",
+      "capitale": "Brazzaville"
+    },
+    {
+      "pays": "Cor\u00e9e du Nord",
+      "capitale": "Pyongyang"
+    },
+    {
+      "pays": "Cor\u00e9e du Sud",
+      "capitale": "S\u00e9oul"
+    },
+    {
+      "pays": "Costa Rica",
+      "capitale": "San Jos\u00e9"
+    },
+    {
+      "pays": "C\u00f4te d'Ivoire",
+      "capitale": "Yamoussoukro"
+    },
+    {
+      "pays": "Croatie",
+      "capitale": "Zagreb"
+    },
+    {
+      "pays": "Cuba",
+      "capitale": "La Havane"
+    },
+    {
+      "pays": "Danemark",
+      "capitale": "Copenhague"
+    },
+    {
+      "pays": "Djibouti",
+      "capitale": "Djibouti"
+    },
+    {
+      "pays": "Dominique",
+      "capitale": "Roseau"
+    },
+    {
+      "pays": "Egypte",
+      "capitale": "Le Caire"
+    },
+    {
+      "pays": "Emirats Arabes Unis",
+      "capitale": "Abu Dhabi"
+    },
+    {
+      "pays": "Equateur",
+      "capitale": "Quito"
+    },
+    {
+      "pays": "Erythr\u00e9e",
+      "capitale": "KAsmara"
+    },
+    {
+      "pays": "Espagne",
+      "capitale": "Madrid"
+    },
+    {
+      "pays": "Estonie",
+      "capitale": "Tallinn"
+    },
+    {
+      "pays": "Eswatini",
+      "capitale": "Mbabane"
+    },
+    {
+      "pays": "Etats-Unis",
+      "capitale": "Washington"
+    },
+    {
+      "pays": "Ethiopie",
+      "capitale": "Addis-Abeba"
+    },
+    {
+      "pays": "Fidji",
+      "capitale": "Suva"
+    },
+    {
+      "pays": "Finlande",
+      "capitale": "Helsinki"
+    },
+    {
+      "pays": "France",
+      "capitale": "Paris"
+    },
+    {
+      "pays": "Gabon",
+      "capitale": "Libreville"
+    }
+  ]
+}

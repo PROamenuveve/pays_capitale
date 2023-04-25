@@ -1,0 +1,120 @@
+
+MenuPrincipale:
+    id:menus
+    Afiche:
+    Message:
+
+
+
+
+
+<Afiche@MDBoxLayout>:
+    id:main
+    md_bg_color: app.theme_cls.bg_dark
+    orientation:"vertical"
+    MDBoxLayout:
+        md_bg_color: app.theme_cls.primary_dark
+        size_hint_y:None
+        height:main.height*.4
+        FitImage:
+            pos:self.pos
+            source:"image/image (5).jpg"
+
+        
+    Screen:
+        
+        Magie:
+            id:AA
+            size_hint_y:None
+            size_hint_x:.9
+            height:dp(25)
+            md_bg_color: app.theme_cls.accent_dark
+            pos_hint:{"center_x":.5,"center_y":.8}
+            on_press:root.parent.la_repons(root.parent.A),self.grow() if root.parent.verite else self.shake()
+            Label:
+                text:root.parent.A
+                color:"black"
+        Magie:
+            id:BB
+            size_hint_y:None
+            size_hint_x:.9
+            height:dp(25)
+            md_bg_color: app.theme_cls.accent_dark
+            pos_hint:{"center_x":.5,"center_y":.6}
+            on_press:root.parent.la_repons(root.parent.B),self.grow() if root.parent.verite else self.shake()
+            Label:
+                text:root.parent.B
+                color:"black"
+        Magie:
+            id:CC
+            size_hint_y:None
+            size_hint_x:.9
+            height:dp(25)
+            md_bg_color: app.theme_cls.accent_dark
+            pos_hint:{"center_x":.5,"center_y":.4}
+            on_press:root.parent.la_repons(root.parent.C),self.grow() if root.parent.verite else self.shake()
+            Label:
+                text:root.parent.C
+                color:"black"
+        Magie:
+            id:dd
+            
+            size_hint_y:None
+            size_hint_x:.9
+            height:dp(25)
+            md_bg_color: app.theme_cls.accent_dark
+            pos_hint:{"center_x":.5,"center_y":.2}
+            on_press:root.parent.la_repons(root.parent.D),self.grow() if root.parent.verite else self.shake()
+            Label:
+                text:root.parent.D
+                color:"black"
+    MDBoxLayout:
+        size_hint_y:None
+        height:dp(75)
+        md_bg_color: app.theme_cls.accent_dark
+
+<Magie@MDCard+MagicBehavior>
+
+<Message@Screen>:
+    id: message
+    
+    MDBoxLayout:
+        orientation:"vertical"
+        size_hint_y:None
+        height:message.height*.2
+        pos_hint: {"center_x": .5, "center_y": .75}
+        Label:
+            text:"Quel est la capitale (du/de la) "
+            bold:True
+            font_size:dp(18)
+            color:"#ffffff"
+        Label:
+            text:root.parent.teste
+            bold:True
+            font_size:dp(18)
+            color:"#ffffff"
+            
+    MDCard:
+        md_bg_color: root.parent.colore
+        size_hint:None,None
+        height:dp(60)
+        width:dp(60)
+        radius:dp(40)
+        pos_hint: {"center_x": .9, "center_y": .92}
+        Label:
+            text:str(root.parent.score)
+            color:"#0000ff"
+        
+    #MDBoxLayout:
+
+
+
+
+<Cart@MDCard>:
+    size_hint_y:None
+    size_hint_x:.9
+    height:dp(25)
+    md_bg_color: app.theme_cls.accent_dark
+    Label:
+        text:root.xx
+        color:"#0000ff"
